@@ -17,8 +17,8 @@ const SHOT_PAUSE = 300;
 const PLAYER_INVINCIBLE = 100;
 
 //sound paths
-let hitSoundPath = 'sounds/hitsound.wav';
-let shootSoundPath = 'sounds/shootsound.wav';
+let hitSoundPath = 'hitsound.wav';
+let shootSoundPath = 'shootsound.wav';
 // let gameOverSoundPath = ;
 
 let invaders = [];
