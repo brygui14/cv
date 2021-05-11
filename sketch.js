@@ -46,9 +46,9 @@ function preload() {
 	invaderFont = loadFont("Retro Gaming.ttf");
 
 	// sounds
-	soundFormats('wav', 'mp3');
-  hitsound = loadSound(hitSoundPath);
-	shootsound = loadSound(shootSoundPath);
+	// soundFormats('wav', 'mp3');
+  // hitsound = loadSound(hitSoundPath);
+	// shootsound = loadSound(shootSoundPath);
 }
 
 function setup() {
@@ -138,8 +138,8 @@ function game(){
 			bullet.deadMarked = true;
 			loseLife();
 			// hit sound for when player is hit by invader
-			hitsound.setVolume(0.30);
-		  hitsound.play();
+			// hitsound.setVolume(0.30);
+		  // hitsound.play();
 		}
 	}
 
@@ -369,8 +369,8 @@ function keyPressed() {
 	if (keyCode === 32) {
 		player.shoot();
 		if (player.canShoot == true) {
-			shootsound.setVolume(0.20);
-			shootsound.play();
+			// shootsound.setVolume(0.20);
+			// shootsound.play();
 		}
 	}
 
